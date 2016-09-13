@@ -17,6 +17,6 @@ public class Item{
   }
 
   public ValueType getValue(){
-    return vale;
+    return value;
   }
 }
