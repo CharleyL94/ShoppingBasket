@@ -23,7 +23,11 @@ public class Basket{
     basket.add(item);
   }
 
-  
+  // remove item
+  // empty basket
+
+  // total cost of items
+  // discount
 
 
 }
