@@ -4,21 +4,17 @@ import java.util.*;
 
 public class Basket{
 
-  private ArrayList<Basket> basket;
+  private ArrayList<Item> basket;
   private Item item;
 
   public Basket(){
-    this.basket = new ArrayList<Basket>();
+    this.basket = new ArrayList<Item>();
   }
- // create a basket
-  public void createBasket(){
-    for( FoodType )
-    deck.add(new Item(item));
-  }
+    
 
 // check number of items in basket
   public int getBasketSize(){
-    return basket.size;
+    return basket.size();
   }
 
 //place item into basket 
@@ -30,13 +26,18 @@ public class Basket{
   public void removeAnItem(Item item){
     basket.remove(item);
   }
-
-
   
   // empty basket
-
+  public void emptyBasket(Item item){
+    basket.remove(0);
+  }
+  
   // total cost of items
-  // discount
+  
+
+  // bogof
+  // 10% discount >£20
+  // 2% discount with loyalty card
 
 
 }

@@ -1,9 +1,8 @@
-package basket_mangement;
+package basket_management;
 
 public enum FoodType{
-  BREAD
-  EGGS
-  SPINACH
-  SMOKED SALMON
-  // ORANGE JUICE
+  BREAD,
+  EGGS,
+  SPINACH,
+  SALMON
 }
