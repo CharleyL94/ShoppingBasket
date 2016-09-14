@@ -1,19 +1,20 @@
-import static org.junit.Assert.*;
-import org.junit.*;
-import basket_management.*;
+// import static org.junit.Assert.*;
+// import org.junit.*;
+// import basket_management.*;
 
-public class BasketTest{
+// public class BasketTest{
 
-  // Basket basket;
+//   Basket basket;
 
-  // @Before
-  // public void before(){
-  //   basket = new Basket(FoodType.SALMON);
-  // }
+//   @Before
+//   public void before(){
+//     basket = new Basket(FoodType.SALMON);
+//   }
 
-  // @Test
-  // public void canAddItem(){
-  //   assertEquals(basket.add(), basket.add(SALMON));
-  // }
+//   @Test
+//   public void canAddItem(){
+    
+//     assertEquals(1, getBasketSize().size);
+//   }
 
-}
+// }

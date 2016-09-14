@@ -4,19 +4,27 @@ import java.util.*;
 
 public class Item{
   FoodType food;
-  ValueType value;
+  float value;
+  boolean bogof;
 
-  public Item(FoodType food, ValueType value)
+  public Item(FoodType food, float value, boolean bogof)
   {
     this.food = food;
     this.value = value;
+    this.bogof = bogof;
   }
 
   public FoodType getFood(){
     return food;
   }
 
-  public ValueType getValue(){
+  public float getValue(){
     return value;
   }
+
+  public boolean itemBogof(){
+    return this.bogof;
+  }
+
+
 }
