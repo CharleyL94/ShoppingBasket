@@ -59,13 +59,13 @@ public class Basket{
     return cost;
   }
   // 2% discount with loyalty card
-  // public double applyLoyaltyDiscount(){
-  //   // if loyalty card = true apply discount
-  //   // if (cost > 20){
-  //   cost -= (cost/100 * 2);
-  // }
-  // // return cost
-  // }
+  public double applyLoyaltyDiscount(){
+    // if loyalty card = true apply discount
+    // if (cost > 20){
+    cost -= (cost/100 * 2);
+  }
+  // return cost
+  }
 
 
 }
